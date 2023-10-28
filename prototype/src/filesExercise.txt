@@ -1,0 +1,6 @@
+Dhana
+Learning Files in
+C programing exercise
+Date 2023 10 01
+
+Writing the string into the txt file using fputc
