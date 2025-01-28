@@ -1,0 +1,6 @@
+C:/Users/dhana/CLionProjects/cppPrototype/expenses_tracker/cmake-build-debug/CMakeFiles/expenses_tracker.dir
+C:/Users/dhana/CLionProjects/cppPrototype/expenses_tracker/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dhana/CLionProjects/cppPrototype/expenses_tracker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/dhana/CLionProjects/cppPrototype/expenses_tracker/cmake-build-debug/prototype_lib/CMakeFiles/prototype_lib.dir
+C:/Users/dhana/CLionProjects/cppPrototype/expenses_tracker/cmake-build-debug/prototype_lib/CMakeFiles/edit_cache.dir
+C:/Users/dhana/CLionProjects/cppPrototype/expenses_tracker/cmake-build-debug/prototype_lib/CMakeFiles/rebuild_cache.dir

@@ -11,7 +11,7 @@ void createEmployee(int id, const char* name, int age, double salary,
      *employee = (Employee*)malloc(sizeof(Employee));
     if (*employee == nullptr) {
         cout << "Employee memory creation failed" << endl;
-        //return nullptr;
+        //return nullptr;0
     }
 
     (*employee)->id = id;
@@ -47,4 +47,5 @@ void displayEmployeeInfo(Employee** employee) {
     cout << "Address: " << (*employee)->address->street << ", "
          << (*employee)->address->city << ", " << (*employee)->address->state
          << " - " << (*employee)->address->zip << endl;
+
 }
