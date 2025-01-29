@@ -47,5 +47,18 @@ void displayEmployeeInfo(Employee** employee) {
     cout << "Address: " << (*employee)->address->street << ", "
          << (*employee)->address->city << ", " << (*employee)->address->state
          << " - " << (*employee)->address->zip << endl;
-
 }
+
+
+int main()
+{
+    Employee* employee = nullptr;
+    createEmployee(2025, "XYZ", 30, 50000,
+                                            "123 ABC street", "Stockholm", "ST", "19267", &employee);
+    displayEmployeeInfo(&employee);
+
+    return 0;
+}
+
+
+

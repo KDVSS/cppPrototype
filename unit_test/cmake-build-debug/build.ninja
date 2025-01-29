@@ -167,6 +167,20 @@ build prototype_lib/CMakeFiles/prototype_lib.dir/employee_management.cpp.obj: CX
   OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
   OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
 
+build prototype_lib/CMakeFiles/prototype_lib.dir/expenses_tracker.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/expenses_tracker.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\expenses_tracker.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
+build prototype_lib/CMakeFiles/prototype_lib.dir/smart_home.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/smart_home.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\smart_home.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target prototype_lib
@@ -175,7 +189,7 @@ build prototype_lib/CMakeFiles/prototype_lib.dir/employee_management.cpp.obj: CX
 #############################################
 # Link the static library prototype_lib\libprototype_lib.a
 
-build prototype_lib/libprototype_lib.a: CXX_STATIC_LIBRARY_LINKER__prototype_lib_Debug prototype_lib/CMakeFiles/prototype_lib.dir/banking_application.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/employee_management.cpp.obj
+build prototype_lib/libprototype_lib.a: CXX_STATIC_LIBRARY_LINKER__prototype_lib_Debug prototype_lib/CMakeFiles/prototype_lib.dir/banking_application.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/employee_management.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/expenses_tracker.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/smart_home.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
   POST_BUILD = cd .
