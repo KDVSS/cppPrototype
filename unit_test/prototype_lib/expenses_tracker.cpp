@@ -23,7 +23,7 @@ void displayExpenses(std::vector<Expense>& expenses)
     newExpense1.amount = 30;
     expenses.push_back(newExpense1);
 }
-
+/*
 std::vector<Expense> expenses;
 
 int main()
@@ -57,3 +57,4 @@ int main()
         std::cout << "Amount: " << expense.amount << "\n\n";
     }
 }
+*/

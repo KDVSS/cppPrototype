@@ -49,7 +49,7 @@ void displayEmployeeInfo(Employee** employee) {
          << " - " << (*employee)->address->zip << endl;
 }
 
-
+/*
 int main()
 {
     Employee* employee = nullptr;
@@ -59,6 +59,6 @@ int main()
 
     return 0;
 }
-
+*/
 
 

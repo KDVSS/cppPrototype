@@ -13,6 +13,4 @@ class MockBankingApplication : public BankingApplication
         MOCK_METHOD(int, withdraw_amount, (int amount, struct User* user), (override));
 };
 
-
-
 #endif //BANKING_APPLICATION_MOCK_H

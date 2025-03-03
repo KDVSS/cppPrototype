@@ -4,7 +4,8 @@ add_subdirectory(lib)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 include_directories(${gmock_SOURCE_DIR}/include ${gmock_SOURCE_DIR})
 # adding the Google_Tests_run target
-add_executable(Google_Tests_run banking_application_test.cpp)
+add_executable(Google_Tests_run banking_application_test.cpp songs_playlists_test.cpp
+        songs_playlists_mock.h)
 
 target_link_libraries(Google_Tests_run gtest gmock gtest_main gmock_main)
 

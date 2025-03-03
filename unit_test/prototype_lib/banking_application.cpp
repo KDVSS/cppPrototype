@@ -81,7 +81,7 @@ void bank_open(bool isUnitTest, int user_choice,
     }
 }
 
-
+/*
 struct Bank bank;
 struct User user;
 
@@ -94,3 +94,4 @@ int main()
 
     return 0;
 }
+*/

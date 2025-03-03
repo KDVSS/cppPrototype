@@ -49,7 +49,7 @@ void SmartHome::listDevices()
         std::cout << "----------" << std::endl;
     }
 }
-
+/*
 int main()
 {
     SmartHome myHome;
@@ -66,3 +66,4 @@ int main()
 
     return 0;
 }
+*/

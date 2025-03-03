@@ -181,6 +181,48 @@ build prototype_lib/CMakeFiles/prototype_lib.dir/smart_home.cpp.obj: CXX_COMPILE
   OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
   OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
 
+build prototype_lib/CMakeFiles/prototype_lib.dir/student_info.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/student_info.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\student_info.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
+build prototype_lib/CMakeFiles/prototype_lib.dir/tic-tac-toe.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/tic-tac-toe.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\tic-tac-toe.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
+build prototype_lib/CMakeFiles/prototype_lib.dir/practice.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/practice.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\practice.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
+build prototype_lib/CMakeFiles/prototype_lib.dir/songs_playlists.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/songs_playlists.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\songs_playlists.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
+build prototype_lib/CMakeFiles/prototype_lib.dir/practice1.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/practice1.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\practice1.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
+build prototype_lib/CMakeFiles/prototype_lib.dir/files.cpp.obj: CXX_COMPILER__prototype_lib_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib/files.cpp || cmake_object_order_depends_target_prototype_lib
+  DEP_FILE = prototype_lib\CMakeFiles\prototype_lib.dir\files.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib
+  OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+  OBJECT_FILE_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target prototype_lib
@@ -189,7 +231,7 @@ build prototype_lib/CMakeFiles/prototype_lib.dir/smart_home.cpp.obj: CXX_COMPILE
 #############################################
 # Link the static library prototype_lib\libprototype_lib.a
 
-build prototype_lib/libprototype_lib.a: CXX_STATIC_LIBRARY_LINKER__prototype_lib_Debug prototype_lib/CMakeFiles/prototype_lib.dir/banking_application.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/employee_management.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/expenses_tracker.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/smart_home.cpp.obj
+build prototype_lib/libprototype_lib.a: CXX_STATIC_LIBRARY_LINKER__prototype_lib_Debug prototype_lib/CMakeFiles/prototype_lib.dir/banking_application.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/employee_management.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/expenses_tracker.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/smart_home.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/student_info.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/tic-tac-toe.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/practice.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/songs_playlists.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/practice1.cpp.obj prototype_lib/CMakeFiles/prototype_lib.dir/files.cpp.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = prototype_lib\CMakeFiles\prototype_lib.dir
   POST_BUILD = cd .
@@ -283,6 +325,13 @@ build Google_tests/CMakeFiles/Google_Tests_run.dir/banking_application_test.cpp.
   OBJECT_DIR = Google_tests\CMakeFiles\Google_Tests_run.dir
   OBJECT_FILE_DIR = Google_tests\CMakeFiles\Google_Tests_run.dir
 
+build Google_tests/CMakeFiles/Google_Tests_run.dir/songs_playlists_test.cpp.obj: CXX_COMPILER__Google_Tests_run_unscanned_Debug C$:/Users/dhana/CLionProjects/cppPrototype/unit_test/Google_tests/songs_playlists_test.cpp || cmake_object_order_depends_target_Google_Tests_run
+  DEP_FILE = Google_tests\CMakeFiles\Google_Tests_run.dir\songs_playlists_test.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -isystem C:/Users/dhana/CLionProjects/cppPrototype/unit_test/prototype_lib -isystem C:/Users/dhana/CLionProjects/cppPrototype/unit_test/Google_tests/lib/googletest/include -isystem C:/Users/dhana/CLionProjects/cppPrototype/unit_test/Google_tests/lib/googletest -isystem C:/Users/dhana/CLionProjects/cppPrototype/unit_test/Google_tests/lib/googlemock/include -isystem C:/Users/dhana/CLionProjects/cppPrototype/unit_test/Google_tests/lib/googlemock
+  OBJECT_DIR = Google_tests\CMakeFiles\Google_Tests_run.dir
+  OBJECT_FILE_DIR = Google_tests\CMakeFiles\Google_Tests_run.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Google_Tests_run
@@ -291,7 +340,7 @@ build Google_tests/CMakeFiles/Google_Tests_run.dir/banking_application_test.cpp.
 #############################################
 # Link the executable Google_tests\Google_Tests_run.exe
 
-build Google_tests/Google_Tests_run.exe: CXX_EXECUTABLE_LINKER__Google_Tests_run_Debug Google_tests/CMakeFiles/Google_Tests_run.dir/banking_application_test.cpp.obj | lib/libgtest.a lib/libgmock.a lib/libgtest_main.a lib/libgmock_main.a prototype_lib/libprototype_lib.a lib/libgmock.a lib/libgtest.a || lib/libgmock.a lib/libgmock_main.a lib/libgtest.a lib/libgtest_main.a prototype_lib/libprototype_lib.a
+build Google_tests/Google_Tests_run.exe: CXX_EXECUTABLE_LINKER__Google_Tests_run_Debug Google_tests/CMakeFiles/Google_Tests_run.dir/banking_application_test.cpp.obj Google_tests/CMakeFiles/Google_Tests_run.dir/songs_playlists_test.cpp.obj | lib/libgtest.a lib/libgmock.a lib/libgtest_main.a lib/libgmock_main.a prototype_lib/libprototype_lib.a lib/libgmock.a lib/libgtest.a || lib/libgmock.a lib/libgmock_main.a lib/libgtest.a lib/libgtest_main.a prototype_lib/libprototype_lib.a
   FLAGS = -g
   LINK_LIBRARIES = lib/libgtest.a  lib/libgmock.a  lib/libgtest_main.a  lib/libgmock_main.a  prototype_lib/libprototype_lib.a  lib/libgmock.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = Google_tests\CMakeFiles\Google_Tests_run.dir
